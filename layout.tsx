@@ -1,16 +1,19 @@
-@import 'tailwindcss';
+import type { Metadata } from "next";
+import "./globals.css";
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-}
+export const metadata: Metadata = {
+  title: "CarXpressPH | System Maintenance",
+  description: "CarXpressPH is currently undergoing scheduled system maintenance.",
+};
 
-* {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }
