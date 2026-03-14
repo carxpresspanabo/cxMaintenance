@@ -36,7 +36,7 @@ export default function CarXPressMaintenancePage() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://www.facebook.com/CarXpressPanabo"
+                href="https://www.facebook.com/cxpanabo"
                 className="rounded-2xl bg-[#f3c84b] px-6 py-3 text-sm font-semibold text-[#08111f] shadow-lg shadow-[#f3c84b]/25 transition hover:-translate-y-0.5"
               >
                 Message Us on Facebook
